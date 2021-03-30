@@ -2,14 +2,25 @@
     box-sizing: border-box;
 }
 body {
-    display: block;
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    min-height: 100vh;
 }
-.title {
+.Title {
     text-align: center;
     position: relative;
     margin: auto;
+}
+.li {
+    background-color: coral;
+    border: none;
+    color: crimson;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem;
 }
