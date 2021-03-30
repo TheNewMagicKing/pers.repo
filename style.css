@@ -2,7 +2,14 @@
     box-sizing: border-box;
 }
 body {
+    display: block;
+    position: absolute;
+    background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: aqua;
+}
+.title {
+    text-align: center;
+    position: relative;
+    margin: auto;
 }
